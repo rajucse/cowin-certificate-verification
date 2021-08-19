@@ -1,0 +1,19 @@
+{
+  "name": "cowin-verification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.8.0",
+    "fetch-base64": "^2.1.2",
+    "jszip": "^3.7.1",
+    "pdf2pic": "^2.1.4",
+    "zbar.wasm": "^2.0.3"
+  }
+}
