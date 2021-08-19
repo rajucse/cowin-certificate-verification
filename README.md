@@ -1,4 +1,4 @@
-# covin-verification
+# cowin-certificate-verification
 
 Verify covid vaccination certificate downloaded from cowin portal as backend service. 
 
