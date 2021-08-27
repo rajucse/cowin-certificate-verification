@@ -15,7 +15,7 @@ const pageToConvertAsImage = 1;
 const CERTIFICATE_FILE = "certificate.json";
 
 class Cowin {
-    getImageData = async (src) => {
+    async getImageData (src) {
         const img = await loadImage(Buffer.from(src, "base64"));
         const returnData = [];
         let canvas, ctx;
