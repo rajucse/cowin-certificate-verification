@@ -87,7 +87,7 @@ class Cowin {
                     const data = await (await zip.loadAsync(res[0].decode())).files[CERTIFICATE_FILE].async('text');
                     const signedData = JSON.parse(data);
                     response.IsValidCertificate = true;
-                    response.Data = signedData.credentialSubject;
+                    response.Data = {credentialSubject:signedData.credentialSubject,evidence:signedData.evidence[0]}
                 }
             }
         } catch (err) {
